@@ -1,0 +1,106 @@
+@font-face {
+    font-family: open-sans-semibold;
+    src: url(open-sans-semibold.ttf);
+}
+
+@font-face {
+    font-family: open-sans-light;
+    src: url(open-sans-light.ttf);
+}
+
+@font-face {
+    font-family: montserrat-r;
+    src: url(montserrat-regular.otf);
+}
+
+body {
+  background-color: #58a9db;
+  margin: auto;
+  color: #ccc;
+}
+
+.center	{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+.searchbox {
+	font-family: montserrat-r;
+	font-size: 4em;
+	color: white;
+	border-bottom: solid white;
+	padding-bottom: 4px;
+	border-bottom-width: 8px;
+	word-wrap:break-word;
+}
+
+#definition {
+	font-family: open-sans-light;
+	color: #bddfeb;
+	font-style: italic;
+	font-size: 1.5em;
+
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+#title {
+	font-size: 2em;
+	letter-spacing: -2px;
+	color: white;
+	font-family: open-sans-light;
+}
+#title2 {
+	font-size: 2em;
+	letter-spacing: -2px;
+	color: black;
+	font-family: open-sans-semibold;
+}
+
+.dictionary {
+  color: #e2e2e2;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+.dictionary svg {
+	width: .8em;
+	height: .8em;
+	fill:white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

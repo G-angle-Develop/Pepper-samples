@@ -1,0 +1,4 @@
+topic: ~Define()
+language: enu
+
+u: (Define _*) $1 $word=$1 $onStopped=1
